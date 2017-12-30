@@ -38,6 +38,24 @@ def remove_nth_from_end(head, n):
     pointer.next = pointer.next.next  # removing connection to del node
     print('deleted node with val ' + str(result))
 
+
+# single pass approach
+def remove_nth_from_end_single_pass(head, n):
+    """Single pass method."""
+    temp = ListNode()
+    temp.next = head
+    p_one = temp
+    p_two = temp
+    for _ in range(n + 1):
+        p_one = p_one.next  # p1 and p2 now n node apart
+    while p_one:  # move p1 to end, maintain gap
+        p_one = p_one.next
+        p_two = p_two.next
+    result = p_two.next.val  # now p2 is the node before deleting node
+    p_two.next = p_two.next.next
+    print('deleted node with val ' + str(result))
+
+
 if __name__ == '__main__':
     head = ListNode(1)
     head.next = ListNode(2)

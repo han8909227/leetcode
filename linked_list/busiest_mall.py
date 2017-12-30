@@ -42,6 +42,7 @@ def find_busiest_period(data):
         else:  # if leaving (0)
             count -= data[i][1]
 
+        # d_len - 1 because if the last ts has most ppl we want it to be counted
         if (i < d_len - 1) and data[i][0] == data[i + 1][0]:
             continue  # avoid compare max if the ts is same as next one
 

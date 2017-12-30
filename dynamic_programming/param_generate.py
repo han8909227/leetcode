@@ -11,17 +11,19 @@
 # ]
 
 
-def generateParenthesis(N):
+def generate_parenthesis(n):
+    """Take n, output all valid pairs of n param."""
     ans = []
 
-    def backtrack(S='', left=0, right=0):
-        if len(S) == 2 * N:
-            ans.append(S)
+    def backtrack(s='', left=0, right=0):
+        """Generate valid pairs using recursive strategy."""
+        if len(s) == 2 * n:
+            ans.append(s)
             return
-        if left < N:
-            backtrack(S + '(', left + 1, right)
-        if right < left:
-            backtrack(S + ')', left, right + 1)
+        if left < n:  # condition to stop generate left (recursive)
+            backtrack(s + '(', left + 1, right)
+        if right < left:  # condition to stop generate right (recursive)
+            backtrack(s + ')', left, right + 1)
 
     backtrack()
     return ans

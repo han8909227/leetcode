@@ -25,11 +25,11 @@ def partion_subset_sum(data):
     if total % 2 == 1:  # if total cannot even divide, no equal subset
         return False
 
-    aim = total / 2
+    aim = total / 2  # any combo vals equal to this sum means subset partiion is valid
 
     boolean_set = set([0])  # keep track of sums
-    for val in data:
-        for s in boolean_set.copy():
-            boolean_set.add(s + val)
+    for val in data:  # loop over arr (get all possible sums)
+        for s in boolean_set.copy():  # loop over existing sums
+            boolean_set.add(s + val)  # add val to existing sums
     return aim in boolean_set
 

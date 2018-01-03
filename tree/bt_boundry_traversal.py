@@ -25,6 +25,17 @@ class Node(object):
         self.right = None
 
 
+def boundry_traversal(head):
+    """Return boundry traversal of a bt."""
+    left = dfs_left_nodes(head)[:-1]  # don't want tail, will traversed in bottom
+    bottom = dfs_children_only(head)
+    right = dfs_right_nodes(head)[::-1]  # reverse to match counter clock pattern
+    right = right[:-1]  # don't want tail, traversed in bottom
+    right = right[1:]  # don't want head, traversed in left
+
+    return left + bottom + right
+
+
 def dfs_children_only(node):
     """Traverse only last childrens."""
     nodes = []
@@ -41,7 +52,7 @@ def dfs_left_nodes(node):
     nodes = []
     if node:
         nodes.append(node.data)
-        nodes.extend(dfs_left_nodes(node.left))
+        nodes.extend(dfs_left_nodes(node.left))  # find all left nodes
     return nodes
 
 
@@ -50,19 +61,8 @@ def dfs_right_nodes(node):
     nodes = []
     if node:
         nodes.append(node.data)
-        nodes.extend(dfs_right_nodes(node.right))
+        nodes.extend(dfs_right_nodes(node.right))  # find all right nodes
     return nodes
-
-
-def boundry_traversal(head):
-    """Return boundry traversal of a bt."""
-    left = dfs_left_nodes(head)[:-1]  # don't want tail, will traversed in bottom
-    bottom = dfs_children_only(head)
-    right = dfs_right_nodes(head)[::-1]  # reverse to match counter clock pattern
-    right = right[:-1]  # don't want tail, traversed in bottom
-    right = right[1:]  # don't want head, traversed in left
-
-    return left + bottom + right
 
 
 if __name__ == "__main__":

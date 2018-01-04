@@ -25,43 +25,26 @@ class Node(object):
         self.right = None
 
 
-def pre_order(node):
-    """Traverse nodes using pre-order traversal."""
-    nodes = []
-    if node:
-        nodes.append(node.data)
-        nodes.extend(pre_order(node.left))
-        nodes.extend(pre_order(node.right))
-    return nodes
-
-
 def zigzag_traversal(head):
-    """Traverse tree zig zag level pattern."""
-    left = pre_order(head.left)
-    right = pre_order(head.right)
-    result = [head.data]
-    import pdb; pdb.set_trace()
-    n = 1
-    alt = 1
-    while left:
-        try:
-            if alt % 2:
-                temp = []
-                for _ in range(n):
-                    temp.append(left.pop(0))
-                for _ in range(n):
-                    temp.append(right.pop(0))
-                for _ in range(n * 2):
-                    result.append(temp.pop())
-            else:
-                for _ in range(n):
-                    result.append(left.pop(0))
-                for _ in range(n):
-                    result.append(right.pop(0))
-            n *= 2
-            alt += 1
-        except IndexError:
-            break
+    """Zig zag traverse through the tree."""
+    if head is None:
+        return []
+    result, curr = [], [head]
+    count = 0
+    while curr:
+        next_level, vals = [], []  # mt both starting new level
+        for node in curr:  # for all node in curr level
+            vals.append(node.data)
+            if node.left:
+                next_level.append(node.left)
+            if node.right:
+                next_level.append(node.right)
+        curr = next_level  # perculate down level
+        if not count % 2:  # alternate order between each level (zig zag)
+            result.append(vals)  # vals = all val in single level
+        else:
+            result.append(vals[::-1])
+        count += 1
     return result
 
 

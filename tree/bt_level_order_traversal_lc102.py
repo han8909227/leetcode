@@ -25,31 +25,21 @@ class Node(object):
         self.right = None
 
 
-def pre_order(node):
-    """Traverse nodes using pre-order traversal."""
-    nodes = []
-    if node:
-        nodes.append(node.data)
-        nodes.extend(pre_order(node.left))
-        nodes.extend(pre_order(node.right))
-    return nodes
-
-
 def level_traversal(head):
     """Level traverse the tree."""
-    left = pre_order(head.left)  # node left of head
-    right = pre_order(head.right)  # nodes right of head
-    result = [head.data]  # result should have head itself
-    n = 1
-    while left:  # since left is append first no left means no right in bst
-        try:
-            for _ in range(n):  # pop(0) deque n times on each side each level, entire level is n*2 nodes
-                result.append(left.pop(0))
-            for _ in range(n):
-                result.append(right.pop(0))
-        except IndexError:  # if actual node amt is < possible nodes(ended) => break
-            break
-        n *= 2  # double n since possible node increase n * 2 for each level each side
+    if head is None:
+        return []
+    result, curr = [], [head]
+    while curr:
+        next_level, vals = [], []  # mt both starting new level
+        for node in curr:  # for all node in curr level
+            vals.append(node.data)
+            if node.left:
+                next_level.append(node.left)
+            if node.right:
+                next_level.append(node.right)
+        curr = next_level  # perculate down level
+        result.append(vals)  # vals = all val in single level
     return result
 
 
@@ -61,3 +51,11 @@ if __name__ == "__main__":
     head.right = Node(30)
     head.right.left = Node(25)
     head.right.right = Node(35)
+    head.right.left.left = Node(22)
+    head.right.left.right = Node(28)
+    head.right.right.left = Node(32)
+    head.right.right.right = Node(38)
+    head.left.left.left = Node(2)
+    head.left.left.right = Node(8)
+    head.left.right.left = Node(12)
+    head.left.right.right = Node(18)

@@ -40,6 +40,7 @@ def zigzag_traversal(head):
     left = pre_order(head.left)
     right = pre_order(head.right)
     result = [head.data]
+    import pdb; pdb.set_trace()
     n = 1
     alt = 1
     while left:
@@ -75,7 +76,7 @@ if __name__ == "__main__":
     head.right.left.left = Node(22)
     head.right.left.right = Node(28)
     head.right.right.left = Node(32)
-    head.right.right.left = Node(38)
+    head.right.right.right = Node(38)
     head.left.left.left = Node(2)
     head.left.left.right = Node(8)
     head.left.right.left = Node(12)

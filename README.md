@@ -17,5 +17,4 @@ My goal is to help other Python developer who are studying for coding interviews
 
 |  #  | Title           |  Solution       | Tag          | Note|
 |-----|---------------- | --------------- |--------------|-----|
-
 | 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Python](./linked_list/island_count_lc200.py) | Matrix, LinkedList||

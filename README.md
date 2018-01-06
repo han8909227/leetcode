@@ -17,4 +17,14 @@ My goal is to help other Python developer who are studying for coding interviews
 
 |  #  | Title           |  Solution       | Tag          | Note|
 |-----|---------------- | --------------- |--------------|-----|
-| 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Python](./linked_list/island_count_lc200.py) | Matrix, LinkedList||
+|200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Python](./linked_list/island_count_lc200.py) | Matrix, LinkedList||
+|416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) |[Python](./linked_list/partition_equal_sum_lc416.py)|||
+|102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)| [Python](./tree/bt_level_order_traversal_lc102.py)|||
+|103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)|[Python](./tree/bt_zigzag_traversal_lc103.py)|||
+|98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|[Python](./tree/verify_tree_is_bst_lc98.py)|||
+|545 | [Boundary of Binary Tree](https://leetcode.com/problems/boundary-of-binary-tree/) | [Python](./tree/bt_boundry_traversal.py)|||
+|236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [Python](./tree/bt_lowest_common_ancestory_lc236.py)|||
+|746 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | [Python](./dynamic_programming/min_cost_climbing.py)|||
+
+
+

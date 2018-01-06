@@ -13,6 +13,8 @@ My goal is to help other Python developer who are studying for coding interviews
 
 
 
+## Solved LeetCode Problems
+
 |  #  | Title           |  Solution       | Tag          | Note|
 |-----|---------------- | --------------- |--------------|-----|
 

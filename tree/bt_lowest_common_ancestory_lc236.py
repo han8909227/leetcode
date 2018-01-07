@@ -24,21 +24,36 @@ class Node(object):
         self.right = None
 
 
-def lowest_ancestor(n1, n2):
+def lowest_common_ancestor_no_parent_pointer(root, n1, n2):
     """Return the lowest ancestor of node 1 and node2."""
-    depth_diff = depth(n1) - depth(n2)
+    if not verify_ancestor(root, n1) or not verify_ancestor(root, n2):
+        return None  # if not n1,n2 not children of the root
+
+    # now we know n1,n2 both are at least children of the root
+    return ancestor_helper(root, n1, n2)
 
 
+def ancestor_helper(root, n1, n2):
+    """."""
+    if root is None or root is n1 or root is n2:
+        return root.data
+    # when node on different side => current rootf is the lowest ancestor
+    if verify_ancestor(root.left, n1) != verify_ancestor(root.left, n2):
+        return root.data
+    # passed the above if means n1,n2 still on same side => determine side
+    child_side = root.left if verify_ancestor(root.left, n1) else root.right
+    # recursive go down the tree
+    return ancestor_helper(child_side, n1, n2)
 
 
-
-
-
-
-
-
-
-
+def verify_ancestor(root, node):
+    """Verify if the node is a desent of the root(passed in node)."""
+    if root is None:  # stop perculate if end of tree
+        return False
+    if root is node:
+        return True
+    # perculate down the tree to match node
+    return verify_ancestor(root.left, node) or verify_ancestor(root.right, node)
 
 
 if __name__ == "__main__":

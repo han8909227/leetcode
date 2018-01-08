@@ -25,6 +25,9 @@ My goal is to help other Python developer who are studying for coding interviews
 |545 | [Boundary of Binary Tree](https://leetcode.com/problems/boundary-of-binary-tree/) | [Python](./tree/bt_boundry_traversal.py)|||
 |236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [Python](./tree/bt_lowest_common_ancestory_lc236.py)|||
 |746 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | [Python](./dynamic_programming/min_cost_climbing.py)|||
+|33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Python](./linked_list/search_rotated_array_lc33.py)|||
+|160| [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)| [Python](./linked_list/intersection_two_ll_lc160.py)|||
+|111| [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)| [Python](./tree/bt_min_depth_lc111.py) |||
 
 
 

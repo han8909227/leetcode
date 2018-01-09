@@ -42,3 +42,4 @@ if __name__ == '__main__':
     ll.next.next.next = LinkedList(4)
     ll.next.next.next.next = LinkedList(5)
     ll.next.next.next.next.next = None
+    print('after rotation at k=2 1->2->3->4->5 becomes 4->5->1->2->3')

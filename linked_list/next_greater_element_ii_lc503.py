@@ -9,5 +9,15 @@
 # Note: The length of given array won't exceed 10000.
 
 
-def next_greater_II(nums):
+def next_greater_ii(nums):
     """LC 503 implemented in Python."""
+    nums_len = len(nums)  # actual len of list
+    result = [-1 for n in range(nums_len)]  # result list
+    for i in range(nums_len):
+        j = i + 1  # starting next val
+        while j < i + nums_len:  # while less than 1 iteration. i.e 2(curr), 3, 4(tail), 5, 6
+            if nums[j % nums_len] > nums[i]:  # ensure in range
+                result[i] = (nums[j % nums_len])
+                break
+            j += 1
+    return result

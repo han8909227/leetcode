@@ -22,3 +22,19 @@ class LinkedList(object):
 
 def sum_list(l1, l2):
     """Get the sum of lists (reverse) digitize return same output format as input (reverse list)."""
+    dummy = LinkedList(None)
+    temp = dummy  # temp will be iterating node
+    carry = 0
+
+    while l1 or l2 or carry:
+        if l1:
+            carry += l1.val
+            l1 = l1.next
+        if l2:
+            carry += l2.val
+            l2 = l2.next
+        temp.next = LinkedList(carry % 10)  # will be single place digit
+        carry /= 10  # will be double place digit
+        temp = temp.next  # creating result list
+    return dummy.next  # dummy still points to start of result list
+

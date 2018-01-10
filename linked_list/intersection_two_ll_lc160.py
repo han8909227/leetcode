@@ -63,4 +63,4 @@ if __name__ == '__main__':
     l2 = LinkedList(5)
     l2.next = LinkedList(4)
     l2.next.next = l1.next.next
-    print('the intersecting node between l1 and l2 is ' + intersection_finder(l1, l2))
+    print('the intersecting node between l1 and l2 is ' + str(intersection_finder(l1, l2)))

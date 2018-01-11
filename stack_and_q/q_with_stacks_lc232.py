@@ -13,25 +13,29 @@
 class StackQueue(object):
     """Queue with two stacks."""
 
-    def __init__(self, vals):
+    def __init__(self, vals=None):
         """."""
-        if vals:
-            for val in vals:
-                self.enqueue(val)
         self._s1 = []
         self._s2 = []
+        if vals:
+            for val in vals:
+                self.push(val)
 
     def push(self, val):
         """Same as enqueue."""
-        for val in self._s2:  # reverse s2 to s1
+        if not self._s2:
+            self._s2.append(val)
+            return
+        for _ in self._s2:  # reverse s2 to s1
             self._s1.append(self._s2.pop())
         self._s1.append(val)  # add to end of s1(top of queue)
-        for val in self._s1:  # flip again to s2, end is deQ val
+        for _ in self._s1:  # flip again to s2, end is deQ val
             self._s2.append(self._s1.pop())
 
     def pop(self):
         """Same as dequeue."""
-        return self._s2.pop()
+        result = self._s2.pop()
+        return result
 
     def peek(self):
         """Peek next dequeue val."""

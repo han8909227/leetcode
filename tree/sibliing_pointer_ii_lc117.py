@@ -56,3 +56,39 @@ def connect2(node):
         else:  # single child left or both or none(all fine)
             node = node.left
 
+
+# a more elagent solution..
+def second_connect2(root):
+    """LC 117."""
+    head = None
+    pre = None
+    curr = root
+    while curr:
+        while curr:
+            if curr.left:
+                if pre:
+                    pre.next = curr.left
+                else:
+                    head = curr.left
+                pre = curr.left
+
+            if curr.right:
+                if pre:
+                    pre.next = curr.right
+                else:
+                    head = curr.right
+                pre = curr.right
+            curr = curr.next
+        curr = head
+        pre = None
+        head = None
+
+
+if __name__ == "__main__":
+    head = Node(20)
+    head.left = Node(10)
+    head.left.left = Node(5)
+    head.left.right = Node(15)
+    head.right = Node(30)
+    head.right.left = Node(25)
+    head.right.right = Node(35)

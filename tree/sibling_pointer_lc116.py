@@ -28,3 +28,35 @@
 #     4->5->6->7 -> NULL
 
 
+class Node(object):
+    """Simple node class."""
+
+    def __init__(self, data):
+        """."""
+        self.data = data
+        self.left = None
+        self.right = None
+        self.next = None
+
+
+def connect(node):
+    """LC 116."""
+    while node:
+        curr = node
+        while curr:
+            if curr.left:
+                curr.left.next = curr.right  # curr as parent
+            if curr.next:
+                curr.right.next = curr.next.left  # diff parent nodes
+            curr = curr.next  # going across
+        node = node.left  # going down most left side
+
+
+if __name__ == "__main__":
+    head = Node(20)
+    head.left = Node(10)
+    head.left.left = Node(5)
+    head.left.right = Node(15)
+    head.right = Node(30)
+    head.right.left = Node(25)
+    head.right.right = Node(35)

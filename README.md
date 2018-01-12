@@ -1,4 +1,4 @@
-# LeetCode Marathon 
+# LeetCode Marathon
 To aid my coding skill and to succeed in coding interview I am working on a collection of [LeetCode](https://leetcode.com/problemset/all/) problems.
 
 ### Goal of this repository

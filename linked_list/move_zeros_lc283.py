@@ -13,10 +13,10 @@ def move_zeros(nums):
     """LC 283 in Python."""
     count = 0
     for i in range(len(nums)):
-        if nums[i] != 0:
-            nums[count] = nums[i]
-            if i != count:
-                nums[i] = 0
+        if nums[i] != 0:  # if non zero val
+            nums[count] = nums[i]  # move to front(next to # of non-zeros)
+            if i != count:  # if nonzero didn't replace itself(moved to front)
+                nums[i] = 0  # assign current to zero
             count += 1
     return nums
 

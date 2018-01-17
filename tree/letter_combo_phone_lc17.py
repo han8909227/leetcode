@@ -8,7 +8,7 @@
 # Although the above answer is in lexicographical order, your answer could be in any order you want.
 
 
-def letter_combinations(self, digits):
+def letter_combinations(digits):
     """LC17 in Python."""
     if not digits:
         return []
@@ -18,12 +18,12 @@ def letter_combinations(self, digits):
     return res
 
 
-def dfs(self, digits, dic, index, path, res):
+def dfs(digits, dic, index, path, res):
     """DFS."""
     if len(path) == len(digits):
         res.append(path)
         return
-    for i in xrange(index, len(digits)):
+    for i in range(index, len(digits)):
         for j in dic[digits[i]]:
             dfs(digits, dic, i + 1, path + j, res)
 

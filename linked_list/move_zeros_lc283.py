@@ -7,3 +7,21 @@
 # Minimize the total number of operations.
 # Credits:
 # Special thanks to @jianchao.li.fighter for adding this problem and creating all test cases.
+
+
+def move_zeros(nums):
+    """LC 283 in Python."""
+    count = 0
+    for i in range(len(nums)):
+        if nums[i] != 0:
+            nums[count] = nums[i]
+            if i != count:
+                nums[i] = 0
+            count += 1
+    return nums
+
+
+if __name__ == '__main__':
+    nums = [0, 1, 0, 3, 12]
+    print(str(nums) + ' turns into ' + str(move_zeros(nums)))
+

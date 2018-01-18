@@ -79,4 +79,4 @@ My goal is to help other Python developer who are studying for coding interviews
 
 ## Further problem explaining and solving process:
 I have constructed a blog site to post my thought process on solving some of these problems
-It can be linked to **[HERE](http://hanblog.site)**
+It can be linked to **[HERE](http://hanblog.tech)**

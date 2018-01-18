@@ -11,8 +11,6 @@ My goal is to help other Python developer who are studying for coding interviews
 * Upon review your contribution will be showing in this repo that will help many others!
 
 
-
-
 ## Solved LeetCode Problems
 
 |  #  | Title           |  Solution       | Time  | Space| Notes|

@@ -35,9 +35,9 @@ My goal is to help other Python developer who are studying for coding interviews
 |449|[Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/)| [Python](./tree/serialize_and-deserialize_bst_lc449.py)| _O(n)_ | _O(h)_ | |
 |547| [Friend Circles](https://leetcode.com/problems/friend-circles/) | [Python](./tree/friend_circles_lc547.py) | _O(n^2)_  | _O(n)_ | Union Find |
 |92| [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)| [Python](./linked_list/reverse_linked_list_ii_lc92.py) | _O(n)_| _O(1)_||
-|61| [Rotate List](https://leetcode.com/problems/rotate-list/)| [Python](./linked_list/rotated_list_lc61.py)   | _O(n)_          | _O(1)_          | |
-|[503]| [Next Greater Element](https://leetcode.com/problems/next-greater-element-i/description/)| [Python](./linked_list/next_greater_element_lc496.py)| _O(n)_| _O(1)_|Asked with LC503|
-|[503]| [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/description/)| [Python](./linked_list/next_greater_element_ii_lc503.py)| _O(n)_| _O(1)_|Asked with LC496|
+|61| [Rotate List](https://leetcode.com/problems/rotate-list/)| [Python](./linked_list/rotated_list_lc61.py)   | _O(n)_ | _O(1)_ | |
+|503| [Next Greater Element](https://leetcode.com/problems/next-greater-element-i/description/)| [Python](./linked_list/next_greater_element_lc496.py)| _O(n)_| _O(1)_|Asked with LC503|
+|503| [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/description/)| [Python](./linked_list/next_greater_element_ii_lc503.py)| _O(n)_| _O(1)_|Asked with LC496|
 
 
 

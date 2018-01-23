@@ -23,7 +23,7 @@ class Node(object):
 
 
 def path_sum(node, target):
-    """."""
+    """LC 112."""
     if not node:
         return False
 

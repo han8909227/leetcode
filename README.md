@@ -34,9 +34,20 @@ My goal is to help other Python developer who are studying for coding interviews
 |547| [Friend Circles](https://leetcode.com/problems/friend-circles/) | [Python](./tree/friend_circles_lc547.py) | _O(n^2)_  | _O(n)_ | Union Find |
 |92| [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)| [Python](./linked_list/reverse_linked_list_ii_lc92.py) | _O(n)_| _O(1)_||
 |61| [Rotate List](https://leetcode.com/problems/rotate-list/)| [Python](./linked_list/rotated_list_lc61.py)   | _O(n)_ | _O(1)_ | |
-|503| [Next Greater Element](https://leetcode.com/problems/next-greater-element-i/description/)| [Python](./linked_list/next_greater_element_lc496.py)| _O(n)_| _O(1)_|Asked with LC503|
+|496| [Next Greater Element](https://leetcode.com/problems/next-greater-element-i/description/)| [Python](./linked_list/next_greater_element_lc496.py)| _O(n)_| _O(1)_|Asked with LC503|
 |503| [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/description/)| [Python](./linked_list/next_greater_element_ii_lc503.py)| _O(n)_| _O(1)_|Asked with LC496|
-
+|124| [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)| [Python](./tree/max_path_sum_lc124.py) | _O(n)_| _O(h)_||
+|112| [Path Sum](https://leetcode.com/problems/path-sum/) | [Python](./tree/path_sum_lc112)   | _O(n)_ | _O(h)_ | |
+|113| [Path Sum II](https://leetcode.com/problems/path-sum-ii/) | [Python](./tree/path_sum_II_lc113) | _O(n)_ | _O(h)_ |Asked with LC112|
+|96| [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) | [Python](./tree/unique_bst_lc96.py) | _O(n)_ | _O(1)_||
+|17| [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)| [Python](./tree/letter_combo_phone_lc17.py) | _O(n * 4^n)_ | _O(n)_ ||
+|78| [Subsets](https://leetcode.com/problems/subsets/) | [Python](./subsets/subset_lc78.py)    | _O(n * 2^n)_ | _O(1)_ | Medium ||
+|150| [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)| [Python](./stack_and_q/RPN_lc150.py)| _O(n)_| _O(n)_||
+|20| [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)| [Python](./Python/valid-parentheses.py) | _O(n)_ | _O(n)_ | |
+|283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [Python](./linked_list/move_zeros_lc283.py) | _O(n)_ | _O(1)_| |
+|74| [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | [Python](./linked_list/search_2d_martix_lc74.py) | _O(logm + logn)_ | _O(1)_ ||
+|24| [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)| [Python](./linked_list/swap_nodes_pairs_lc24.py)   | _O(n)_ | _O(1)_ | |
+|13| [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) |[Python](./string/roman_to_int_lc13.py) | _O(n)_ | _O(1)_ ||
 
 
 ## Clarify questions to ask at interview:

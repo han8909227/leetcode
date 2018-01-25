@@ -41,7 +41,7 @@ My goal is to help other Python developer who are studying for coding interviews
 |113| [Path Sum II](https://leetcode.com/problems/path-sum-ii/) | [Python](./tree/path_sum_II_lc113) | _O(n)_ | _O(h)_ |Asked with LC112|
 |96| [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) | [Python](./tree/unique_bst_lc96.py) | _O(n)_ | _O(1)_||
 |17| [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)| [Python](./tree/letter_combo_phone_lc17.py) | _O(n * 4^n)_ | _O(n)_ ||
-|78| [Subsets](https://leetcode.com/problems/subsets/) | [Python](./subsets/subset_lc78.py)    | _O(n * 2^n)_ | _O(1)_ | Medium ||
+|78| [Subsets](https://leetcode.com/problems/subsets/) | [Python](./subsets/subset_lc78.py)    | _O(n * 2^n)_ | _O(1)_ | ||
 |150| [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)| [Python](./stack_and_q/RPN_lc150.py)| _O(n)_| _O(n)_||
 |20| [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)| [Python](./Python/valid-parentheses.py) | _O(n)_ | _O(n)_ | |
 |283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [Python](./linked_list/move_zeros_lc283.py) | _O(n)_ | _O(1)_| |

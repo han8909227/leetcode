@@ -11,16 +11,14 @@
 
 
 def jump(nums):
-    """
-    3 situations,
-    1: you get to the end exactly
-    2: end is within your reach
-    3: you are not at end and hit a zero and will not get any further.
-    """
+    """Classic greedy algo."""
     idx = 0
-    while True:
-        idx += nums[idx]
-        if idx >= len(nums):
+    longest = nums[0]
+    length = len(nums)
+
+    while idx <= longest:  # potential jump
+        if longest >= length - 1:  # means reached or excceding last idx
             return True
-        if nums[idx] == 0:
-            return False
+        longest = max(longest, longest + nums[idx])  # greedy part, if you can bring me further
+        idx += 1
+    return False

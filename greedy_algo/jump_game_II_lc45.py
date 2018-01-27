@@ -13,3 +13,16 @@
 # You can assume that you can always reach the last index.
 
 
+def jump_game_ii(nums):
+    """Min step to complete the jump game."""
+    length = len(nums)
+    counter = 0
+    longest = 0
+    reach = 0
+
+    for i in range(length):
+        if longest < i:  # if i is ahead of longest (curr longest cannot complete game)
+            counter += 1  # need to jump
+            longest = reach  # update the longest
+        reach = max(reach, nums[i] + i)  # determine what reach is for this i, either previous reach or curr val + idx
+    return counter

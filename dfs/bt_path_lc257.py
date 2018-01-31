@@ -22,6 +22,7 @@ class Node(object):
         self.right = None
 
     def __repr__(self):
+        """."""
         return str(self.val)
 
 

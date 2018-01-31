@@ -10,3 +10,12 @@
 # 1 ≤ m ≤ n ≤ length of list.
 
 
+class LinkedList(object):
+    """Simple linked list class."""
+
+    def __init__(self, val):
+        """."""
+        self.next = None
+        self.val = val
+
+

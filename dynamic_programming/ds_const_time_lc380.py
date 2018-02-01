@@ -36,7 +36,7 @@ class RandomizedSet(object):
     The idea is use a list to hold all the data,
     and use a dictionary(hash map) to remember where each val is (index)
     And to delete a val, simply get that index and swap it with the last val in list to pop
-        """
+    """
 
     def __init__(self):
         """

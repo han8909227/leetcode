@@ -9,9 +9,9 @@ def bs(nums, target):
         mid = (left + right) // 2  # only search for mid index
         # import pdb; pdb.set_trace()
         if nums[mid] > target:  # push mid idx to left
-            right -= 1
+            right = mid
         if nums[mid] < target:  # push mid idx to right
-            left += 1
+            left = mid + 1
         if nums[mid] == target:
             return mid
     return -1  # val not exist

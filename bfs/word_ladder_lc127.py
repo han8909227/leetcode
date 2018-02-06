@@ -20,7 +20,12 @@
 
 
 def bfs(begin, end, word_list):
-    """LC127 with bfs."""
+    """LC127 with bfs
+    type str: begin
+    type str: end
+    type set: word_list
+    return int.
+    """
     word_list.add(end)
     depth = 0
     curr_level = [begin]

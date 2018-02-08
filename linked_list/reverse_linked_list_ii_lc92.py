@@ -19,3 +19,14 @@ class LinkedList(object):
         self.val = val
 
 
+def reverse_partial(head, m, n):
+    """."""
+    p1, p2 = head, head
+    for _ in range(m - 1):
+        p1 = p1.next
+    for _ in range(n - 1):
+        p2 = p2.next
+
+    while p1 != p2:
+        p1 = p1.next
+

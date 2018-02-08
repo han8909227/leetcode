@@ -13,7 +13,7 @@ def binary_search(nums, target):
     right = len(nums) - 1
 
     while left <= right:
-        mid = (left + right) / 2  # mid index
+        mid = (left + right) // 2  # mid index
         if target == nums[mid]:  # if match target
             return mid  # return index
         if nums[mid] >= nums[left]:  # means left -> mid are in order(not effected by rotation)

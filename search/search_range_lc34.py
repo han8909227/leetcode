@@ -9,8 +9,6 @@
 # return [3, 4].
 
 
-
-
 def search_range(nums, target):
     """LC34 using binary search."""
     left = 0

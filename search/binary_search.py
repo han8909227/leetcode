@@ -11,7 +11,7 @@ def bs(nums, target):
         if nums[mid] > target:  # push mid idx to left
             right = mid
         if nums[mid] < target:  # push mid idx to right
-            left = mid + 1
+            left = mid
         if nums[mid] == target:
             return mid
     return -1  # val not exist

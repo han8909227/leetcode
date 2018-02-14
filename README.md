@@ -24,7 +24,7 @@ My goal is to help other Python developer who are studying for coding interviews
 |34| [Search for a Range](https://leetcode.com/problems/search-for-a-range/) |[Python](./search/search_range_lc34.py) | _O(logn)_ | _O(1)_   ||
 |45| [Jump Game II](https://leetcode.com/problems/jump-game-ii/)  | [Python](./greedy_algo/jump_game_ii_lc45.py) | _O(n)_  | _O(1)_ | |
 |55| [Jump Game](https://leetcode.com/problems/jump-game/)     | [Python](./greedy_algo/jump_game_lc55.py)  | _O(n)_ | _O(1)_ ||
-|74| [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | [Python](./search/search_2d_martix_lc74.py) | _O(logm + logn)_ | _O(1)_ ||
+|74| [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | [Python](./search/search_2d_matrix_lc74.py) | _O(logm + logn)_ | _O(1)_ ||
 |61| [Rotate List](https://leetcode.com/problems/rotate-list/)| [Python](./linked_list/rotated_list_lc61.py)   | _O(n)_ | _O(1)_ | |
 |62| [Unique Paths](https://leetcode.com/problems/unique-paths/) | [Python](./dynamic_programming/unique_path_lc62.py)| _O(m * n)_ | _O(m + \n)_   ||
 |63| [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | [Python](./dynamic_programming/unique_paths_ii_lc63.py) |  _O(m * n)_ | _O(m + n)_   | |

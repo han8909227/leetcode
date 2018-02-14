@@ -10,9 +10,11 @@ My goal is to help other Python developer who are studying for coding interviews
 * Submit a pull request to this main repository
 * Upon review your contribution will be showing in this repo that will help many others!
 
+## Further problem explaining and solving process:
+I have constructed a blog site to post my thought process on solving some of the problems listed below
+It can be linked to **[HERE](http://hanblog.tech)**
 
 ## Solved LeetCode Problems
-
 |  #  | Title           |  Solution       | Time  | Space| Notes|
 |-----|---------------- | --------------- |-------|------|------|
 |2| [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) |[Python](./linked_list/sum_list_lc2.py) | _O(n)_   | _O(1)_ ||
@@ -101,6 +103,3 @@ My goal is to help other Python developer who are studying for coding interviews
     * If it should return multiple values, do you have any preference on what to return?
     * What should I do/return if the input is invalid / does not match the constraints?
 
-## Further problem explaining and solving process:
-I have constructed a blog site to post my thought process on solving some of these problems
-It can be linked to **[HERE](http://hanblog.tech)**

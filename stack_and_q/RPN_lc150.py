@@ -17,7 +17,7 @@ def rpn(tokens):
         '+': operator.add,
         '-': operator.sub,
         '*': operator.mul,
-        '/': operator.floordiv
+        '/': operator.floordiv  # same as // in python
     }
 
     for num in tokens:
@@ -29,6 +29,7 @@ def rpn(tokens):
             re = operation[num](val_2, val_1)
             stack.append(re)
     return stack.pop()
+
 
 if __name__ == '__main__':
     a = ["2", "1", "+", "3", "*"]

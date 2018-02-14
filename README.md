@@ -17,9 +17,9 @@ My goal is to help other Python developer who are studying for coding interviews
 |-----|---------------- | --------------- |-------|------|------|
 |2| [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) |[Python](./linked_list/sum_list_lc2.py) | _O(n)_   | _O(1)_ ||
 |13| [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) |[Python](./string/roman_to_int_lc13.py) | _O(n)_ | _O(1)_ ||
-|17| [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)| [Python](./tree/letter_combo_phone_lc17.py) | _O(n * 4^n)_ | _O(n)_ ||
-|20| [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)| [Python](./Python/valid-parentheses.py) | _O(n)_ | _O(n)_ | |
-|24| [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)| [Python](./linked_list/swap_nodes_pairs_lc24.py)   | _O(n)_ | _O(1)_ | |
+|17| [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)| [Python](./string/letter_combo_phone_lc17.py) | _O(n * 4^n)_ | _O(n)_ ||
+|20| [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)| [Python](./stack_and_q/valid_paren_lc20.py) | _O(n)_ | _O(n)_ | |
+|24| [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)| [Python](./linked_list/swap_node_pairs_lc24.py)   | _O(n)_ | _O(1)_ | |
 |33| [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Python](./search/search_rotated_array_lc33.py)|_O(logn)_| _O(1)_||
 |34| [Search for a Range](https://leetcode.com/problems/search-for-a-range/) |[Python](./search/search_range_lc34.py) | _O(logn)_ | _O(1)_   ||
 |45| [Jump Game II](https://leetcode.com/problems/jump-game-ii/)  | [Python](./greedy_algo/jump_game_ii_lc45.py) | _O(n)_  | _O(1)_ | |
@@ -35,10 +35,10 @@ My goal is to help other Python developer who are studying for coding interviews
 |102| [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)| [Python](./tree/bt_level_order_traversal_lc102.py)|_O(n)_| _O(n)_||
 |103| [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)|[Python](./tree/bt_zigzag_traversal_lc103.py)|_O(n)_| _O(n)_||
 |111| [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)| [Python](./tree/bt_min_depth_lc111.py) |_O(n)_| _O(h)_||
-|112| [Path Sum](https://leetcode.com/problems/path-sum/) | [Python](./tree/path_sum_lc112)   | _O(n)_ | _O(h)_ | |
-|113| [Path Sum II](https://leetcode.com/problems/path-sum-ii/) | [Python](./tree/path_sum_II_lc113) | _O(n)_ | _O(h)_ |Asked with LC112|
-|117| [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)|[Python](./tree/sibiling_pointer_ii_lc117.py)| _O(n)_ | _O(1)_  |Asked with LC116|
-|116| [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)|[Python](./tree/sibiling_pointer_lc116.py)|_O(n)_| _O(1)_| Asked with LC117|
+|112| [Path Sum](https://leetcode.com/problems/path-sum/) | [Python](./tree/path_sum_lc112.py)   | _O(n)_ | _O(h)_ | |
+|113| [Path Sum II](https://leetcode.com/problems/path-sum-ii/) | [Python](./tree/path_sum_II_lc113.py) | _O(n)_ | _O(h)_ |Asked with LC112|
+|117| [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)|[Python](./tree/sibling_pointer_ii_lc117.py)| _O(n)_ | _O(1)_  |Asked with LC116|
+|116| [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)|[Python](./tree/sibling_pointer_lc116.py)|_O(n)_| _O(1)_| Asked with LC117|
 |121| [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)| [Python](./greedy_algo/best_time_stock_lc121.py.py) | _O(n)_ | _O(1)_ | Easy ||
 |122| [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)| [Python](./greedy_algo/best_time_stock_ii_lc122.py) | _O(n)_ | _O(1)_ ||
 |124| [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)| [Python](./tree/max_path_sum_lc124.py) | _O(n)_| _O(h)_||

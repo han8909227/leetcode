@@ -15,39 +15,50 @@ My goal is to help other Python developer who are studying for coding interviews
 
 |  #  | Title           |  Solution       | Time  | Space| Notes|
 |-----|---------------- | --------------- |-------|------|------|
-|200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Python](./linked_list/island_count_lc200.py) |_O(m * n)_ | _O(m * n)_|Matrix, LinkedList|
-|416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) |[Python](./linked_list/partition_equal_sum_lc416.py)|_O(n * s)_ | _O(s)_ ||
-|102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)| [Python](./tree/bt_level_order_traversal_lc102.py)|_O(n)_| _O(n)_||
-|103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)|[Python](./tree/bt_zigzag_traversal_lc103.py)|_O(n)_| _O(n)_||
-|98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|[Python](./tree/verify_tree_is_bst_lc98.py)|_O(n)_| _O(1)_||
-|545 | [Boundary of Binary Tree](https://leetcode.com/problems/boundary-of-binary-tree/) | [Python](./tree/bt_boundry_traversal.py)|_O(n)_| _O(h)_||
-|236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [Python](./tree/bt_lowest_common_ancestory_lc236.py)|_O(n)_| _O(h)_||
-|746 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | [Python](./dynamic_programming/min_cost_climbing.py)|_O(n)_| _O(1)_||
-|33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Python](./linked_list/search_rotated_array_lc33.py)|_O(logn)_| _O(1)_||
-|160| [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)| [Python](./linked_list/intersection_two_ll_lc160.py)|_O(n + m)_| _O(1)_||
-|111| [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)| [Python](./tree/bt_min_depth_lc111.py) |_O(n)_| _O(h)_||
-|116| [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)|[Python](./tree/sibiling_pointer_lc116.py)|_O(n)_| _O(1)_| Asked with LC117|
-|117| [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)|[Python](./tree/sibiling_pointer_ii_lc117.py)| _O(n)_ | _O(1)_  |Asked with LC116|
-|155| [Min Stack](https://leetcode.com/problems/min-stack/) | [Python](./stack_and_q/min_stack_lc155.py)  | _O(n)_ | _O(1)_ | |
-|232| [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) |[Python](./stack_and_q/q_with_stacks_lc232.py) | _O(1), amortized_| _O(n)_| |
-|449|[Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/)| [Python](./tree/serialize_and-deserialize_bst_lc449.py)| _O(n)_ | _O(h)_ | |
-|547| [Friend Circles](https://leetcode.com/problems/friend-circles/) | [Python](./tree/friend_circles_lc547.py) | _O(n^2)_  | _O(n)_ | Union Find |
-|92| [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)| [Python](./linked_list/reverse_linked_list_ii_lc92.py) | _O(n)_| _O(1)_||
+|13| [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) |[Python](./string/roman_to_int_lc13.py) | _O(n)_ | _O(1)_ ||
+|17| [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)| [Python](./tree/letter_combo_phone_lc17.py) | _O(n * 4^n)_ | _O(n)_ ||
+|20| [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)| [Python](./Python/valid-parentheses.py) | _O(n)_ | _O(n)_ | |
+|24| [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)| [Python](./linked_list/swap_nodes_pairs_lc24.py)   | _O(n)_ | _O(1)_ | |
+|33| [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Python](./dynamic_programming/search_rotated_array_lc33.py)|_O(logn)_| _O(1)_||
+|74| [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | [Python](./dynamic_programming/search_2d_martix_lc74.py) | _O(logm + logn)_ | _O(1)_ ||
 |61| [Rotate List](https://leetcode.com/problems/rotate-list/)| [Python](./linked_list/rotated_list_lc61.py)   | _O(n)_ | _O(1)_ | |
-|496| [Next Greater Element](https://leetcode.com/problems/next-greater-element-i/description/)| [Python](./linked_list/next_greater_element_lc496.py)| _O(n)_| _O(1)_|Asked with LC503|
-|503| [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/description/)| [Python](./linked_list/next_greater_element_ii_lc503.py)| _O(n)_| _O(1)_|Asked with LC496|
-|124| [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)| [Python](./tree/max_path_sum_lc124.py) | _O(n)_| _O(h)_||
+
+|062| [Unique Paths](https://leetcode.com/problems/unique-paths/) | [Python](./dynamic_programming/unique-paths.py)| _O(m * n)_ | _O(m + n)_   ||
+|063| [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | [Python](./dynamic_programming/unique-paths-ii.py) |  _O(m * n)_ | _O(m + n)_   | |
+
+
+
+|78| [Subsets](https://leetcode.com/problems/subsets/) | [Python](./subsets/subset_lc78.py)    | _O(n * 2^n)_ | _O(1)_ | ||
+|92| [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)| [Python](./linked_list/reverse_linked_list_ii_lc92.py) | _O(n)_| _O(1)_||
+|96| [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) | [Python](./tree/unique_bst_lc96.py) | _O(n)_ | _O(1)_||
+|98| [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|[Python](./tree/verify_tree_is_bst_lc98.py)|_O(n)_| _O(1)_||
+|102| [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)| [Python](./tree/bt_level_order_traversal_lc102.py)|_O(n)_| _O(n)_||
+
+|103| [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)|[Python](./tree/bt_zigzag_traversal_lc103.py)|_O(n)_| _O(n)_||
+|111| [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)| [Python](./tree/bt_min_depth_lc111.py) |_O(n)_| _O(h)_||
 |112| [Path Sum](https://leetcode.com/problems/path-sum/) | [Python](./tree/path_sum_lc112)   | _O(n)_ | _O(h)_ | |
 |113| [Path Sum II](https://leetcode.com/problems/path-sum-ii/) | [Python](./tree/path_sum_II_lc113) | _O(n)_ | _O(h)_ |Asked with LC112|
-|96| [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) | [Python](./tree/unique_bst_lc96.py) | _O(n)_ | _O(1)_||
-|17| [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)| [Python](./tree/letter_combo_phone_lc17.py) | _O(n * 4^n)_ | _O(n)_ ||
-|78| [Subsets](https://leetcode.com/problems/subsets/) | [Python](./subsets/subset_lc78.py)    | _O(n * 2^n)_ | _O(1)_ | ||
+|117| [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)|[Python](./tree/sibiling_pointer_ii_lc117.py)| _O(n)_ | _O(1)_  |Asked with LC116|
+|116| [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)|[Python](./tree/sibiling_pointer_lc116.py)|_O(n)_| _O(1)_| Asked with LC117|
+|124| [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)| [Python](./tree/max_path_sum_lc124.py) | _O(n)_| _O(h)_||
 |150| [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)| [Python](./stack_and_q/RPN_lc150.py)| _O(n)_| _O(n)_||
-|20| [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)| [Python](./Python/valid-parentheses.py) | _O(n)_ | _O(n)_ | |
-|283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [Python](./linked_list/move_zeros_lc283.py) | _O(n)_ | _O(1)_| |
-|74| [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | [Python](./linked_list/search_2d_martix_lc74.py) | _O(logm + logn)_ | _O(1)_ ||
-|24| [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)| [Python](./linked_list/swap_nodes_pairs_lc24.py)   | _O(n)_ | _O(1)_ | |
-|13| [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) |[Python](./string/roman_to_int_lc13.py) | _O(n)_ | _O(1)_ ||
+|155| [Min Stack](https://leetcode.com/problems/min-stack/) | [Python](./stack_and_q/min_stack_lc155.py)  | _O(n)_ | _O(1)_ | |
+|160| [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)| [Python](./linked_list/intersection_two_ll_lc160.py)|_O(n + m)_| _O(1)_||
+|200| [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Python](./dynamic_programming/island_count_lc200.py) |_O(m * n)_ | _O(m * n)_|Matrix, LinkedList|
+|236| [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [Python](./tree/bt_lowest_common_ancestory_lc236.py)|_O(n)_| _O(h)_||
+|283| [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [Python](./dynamic_programming/move_zeros_lc283.py) | _O(n)_ | _O(1)_| |
+|232| [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) |[Python](./stack_and_q/q_with_stacks_lc232.py) | _O(1), amortized_| _O(n)_| |
+|380| [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) |[Python](./dynamic_programming/ds_const_time_lc380.py) | _O(1)_ | _O(n)_| |
+
+
+
+|416| [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) |[Python](./linked_list/partition_equal_sum_lc416.py)|_O(n * s)_ | _O(s)_ ||
+|449|[Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/)| [Python](./tree/serialize_and-deserialize_bst_lc449.py)| _O(n)_ | _O(h)_ | |
+|496| [Next Greater Element](https://leetcode.com/problems/next-greater-element-i/description/)| [Python](./dynamic_programming/next_greater_element_lc496.py)| _O(n)_| _O(1)_|Asked with LC503|
+|503| [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/description/)| [Python](./dynamic_programming/next_greater_element_ii_lc503.py)| _O(n)_| _O(1)_|Asked with LC496|
+|545| [Boundary of Binary Tree](https://leetcode.com/problems/boundary-of-binary-tree/) | [Python](./tree/bt_boundry_traversal.py)|_O(n)_| _O(h)_||
+|547| [Friend Circles](https://leetcode.com/problems/friend-circles/) | [Python](./tree/friend_circles_lc547.py) | _O(n^2)_  | _O(n)_ | Union Find |
+|746| [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | [Python](./dynamic_programming/min_cost_climbing.py)|_O(n)_| _O(1)_||
 
 
 ## Clarify questions to ask at interview:

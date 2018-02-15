@@ -10,7 +10,7 @@ My goal is to help other Python developer who are studying for coding interviews
 * Submit a pull request to this main repository
 * Upon review your contribution will be showing in this repo that will help many others!
 
-## Further problem explaining and solving process:
+## Further explainations:
 I have constructed a blog site to post my thought process on solving some of the problems listed below
 It can be linked to **[HERE](http://hanblog.tech)**
 
@@ -46,7 +46,7 @@ It can be linked to **[HERE](http://hanblog.tech)**
 |124| [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)| [Python](./tree/max_path_sum_lc124.py) | _O(n)_| _O(h)_||
 |127| [Word Ladder](https://leetcode.com/problems/word-ladder/)|[Python](./bfs/word_ladder_lc127.py) | _O(n * d)_| _O(d)_  | |
 |141| [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)| [Python](./linked_list/ll_cycle_lc141.py) | _O(n)_ | _O(1)_ | |
-|142| [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)| [Python](./linked_list/ll_cycle_ii_lc142.py.py) | _O(n)_ | _O(1)_ ||
+|142| [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)| [Python](./linked_list/ll_cycle_ii_lc142.py) | _O(n)_ | _O(1)_ ||
 |150| [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)| [Python](./stack_and_q/RPN_lc150.py)| _O(n)_| _O(n)_||
 |155| [Min Stack](https://leetcode.com/problems/min-stack/) | [Python](./stack_and_q/min_stack_lc155.py)  | _O(n)_ | _O(1)_ | |
 |160| [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)| [Python](./linked_list/intersection_two_ll_lc160.py)|_O(n + m)_| _O(1)_||

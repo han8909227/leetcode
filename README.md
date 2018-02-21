@@ -102,6 +102,3 @@ It can be linked to **[HERE](http://hanblog.tech)**
     * If there are multiple solutions to the problem, which one should be returned?
     * If it should return multiple values, do you have any preference on what to return?
     * What should I do/return if the input is invalid / does not match the constraints?
-
-
-

@@ -13,12 +13,12 @@
 def jump(nums):
     """Classic greedy algo."""
     idx = 0
-    longest = nums[0]
+    longest = 1
     length = len(nums)
 
     while idx <= longest:  # potential jump
         if longest >= length - 1:  # means reached or excceding last idx
             return True
-        longest = max(longest, longest + nums[idx])  # greedy part, if you can bring me further
+        longest = max(longest, idx + nums[idx])  # greedy part, if you can bring me further
         idx += 1
     return False

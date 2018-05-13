@@ -25,27 +25,34 @@ def odd_even_ll(head):
     """LC 328."""
     odd = LinkedList(None)
     even = LinkedList(None)
+
+    # mark down the dummy nodes
     odd_head = odd
     even_head = even
-
     count = 1
 
     while head:
+    	# form even node ll
     	if count % 2 == 0:
     		even.next = head
     		even = even.next
+
+    	# form odd node ll
     	else:
     		odd.next = head
     		odd = odd.next
+
+    	# iterate & break up original node's link
 		temp = head.next
 		head.next = None
 		head = temp
     	count += 1
+
+    # concat odd ll to even ll
     odd.next = even_head.next
+
+   	# return odd ll head (original head)
     return odd_head.next
-
-
-
 
 
 if __name__ == '__main__':
